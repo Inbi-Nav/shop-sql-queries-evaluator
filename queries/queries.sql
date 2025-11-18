@@ -7,7 +7,6 @@ FROM producto;
 SELECT nombre, precio
 FROM producto;
 
-
 -- 3. Llista totes les columnes de la taula producto.
 SELECT * 
 FROM producto;
