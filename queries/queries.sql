@@ -1,8 +1,6 @@
 -- 1. Llista el nom de tots els productes que hi ha en la taula producto.
-SELECT nombre, apellido1 as primer_cognom, apellido2 as segon_cognom
-FROM persona
-WHERE tipo = 'alumno'
-ORDER BY apellido1 ASC, apellido2 ASC, nombre ASC ;
+SELECT nombre 
+FROM producto;
 
 
 -- 2. Llista els noms i els preus de tots els productes de la taula producto.
