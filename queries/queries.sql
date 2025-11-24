@@ -269,4 +269,3 @@ AND p.precio > (
     FROM producto 
     WHERE codigo_fabricante = p.codigo_fabricante
 );
-..
