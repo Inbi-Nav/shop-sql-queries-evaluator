@@ -2,7 +2,7 @@
 
 
 ## 📈 Resumen
-✅ 3 correctas de 6 queries
+✅ 5 correctas de 9 queries
 
 ## ✅ Query 1: Correcto
 
@@ -13,14 +13,14 @@
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.27 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -59,7 +59,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | 198.00
 ```
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -76,11 +76,57 @@
  Disco SSD 1 TB | 150.99 | 166.09
 ```
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 6: Error
+## ✅ Query 6: Correcto
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ✅ Query 7: Correcto
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 8: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,10 +1,10 @@
+-nombre | iniciales
+-Asus | AS
+-Lenovo | LE
+-Hewlett-Packard | HE
+-Samsung | SA
+-Seagate | SE
+-Crucial | CR
+-Gigabyte | GI
+-Huawei | HU
+-Xiaomi | XI
++nombre | nombre
++Asus | ASus
++Lenovo | LEnovo
++Hewlett-Packard | HEwlett-Packard
++Samsung | SAmsung
++Seagate | SEagate
++Crucial | CRucial
++Gigabyte | GIgabyte
++Huawei | HUawei
++Xiaomi | XIaomi
+```
+
+⏱ Tiempo: 0.30 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 9: Error
 - **Descripción**: 'NoneType' object is not iterable
 
