@@ -6,21 +6,21 @@
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.37 ms
+⏱ Tiempo: 0.38 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.31 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.26 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -59,7 +59,7 @@
 +Impresora HP Laserjet Pro M26nw | 180.00 | 198.00
 ```
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -83,14 +83,14 @@
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.25 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.28 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -99,30 +99,15 @@
 ```diff
 --- 
 +++ 
-@@ -1,10 +1,10 @@
+@@ -1,4 +1,4 @@
 -nombre | iniciales
--Asus | AS
--Lenovo | LE
--Hewlett-Packard | HE
--Samsung | SA
--Seagate | SE
--Crucial | CR
--Gigabyte | GI
--Huawei | HU
--Xiaomi | XI
-+nombre | nombre
-+Asus | ASus
-+Lenovo | LEnovo
-+Hewlett-Packard | HEwlett-Packard
-+Samsung | SAmsung
-+Seagate | SEagate
-+Crucial | CRucial
-+Gigabyte | GIgabyte
-+Huawei | HUawei
-+Xiaomi | XIaomi
++fabricante | iniciales
+ Asus | AS
+ Lenovo | LE
+ Hewlett-Packard | HE
 ```
 
-⏱ Tiempo: 0.30 ms
+⏱ Tiempo: 0.28 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
